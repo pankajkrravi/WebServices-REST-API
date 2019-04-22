@@ -1,0 +1,7 @@
+package com.goomo.restWS.RestfulWS.exception;
+
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+public class CustomizedGoomoExceptionHandler extends ResponseEntityExceptionHandler{
+
+}

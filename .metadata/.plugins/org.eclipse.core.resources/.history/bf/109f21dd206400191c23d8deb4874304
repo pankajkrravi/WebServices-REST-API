@@ -1,0 +1,14 @@
+package com.goomo.restWS.RestfulWS.user;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class UserDAOService {
+  
+	
+	private static List<User> users=new ArrayList<User>()
+	}
+}

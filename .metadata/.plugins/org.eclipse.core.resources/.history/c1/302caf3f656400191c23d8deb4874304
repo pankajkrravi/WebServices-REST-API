@@ -1,0 +1,22 @@
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+//Configuration
+@Configuration
+//Enable Swagger
+@EnableSwagger2
+public class SwaggerConfiguration {
+	@Bean
+	public Docket api()
+	{
+		
+	}
+	//Bean - Docket
+	//Swagger 2
+	//All the path
+	//all the Api's
+
+}

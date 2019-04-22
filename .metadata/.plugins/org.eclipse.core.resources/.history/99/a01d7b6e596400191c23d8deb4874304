@@ -1,0 +1,26 @@
+package com.goomo.restWS.RestfulWS;
+
+
+import java.util.Locale;
+
+import org.apache.tomcat.util.descriptor.LocalResolver;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+@SpringBootApplication
+public class RestfulWsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RestfulWsApplication.class, args);
+	}
+
+	// Cosde for Internationalization
+	@Bean
+	public LocalResolver localResolver() {
+		SessionLocaleResolver sessionLocaleResolver = new SessionLocaleResolver();
+		sessionLocaleResolver.setDefaultLocale(Locale.US);
+		return sessionLocaleResolver.resolveLocale(request)
+	}
+
+}

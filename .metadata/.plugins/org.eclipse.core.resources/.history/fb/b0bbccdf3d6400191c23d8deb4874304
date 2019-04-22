@@ -1,0 +1,13 @@
+package com.goomo.restWS.RestfulWS.exception;
+
+import java.util.Date;
+
+public class EceptionResponse {
+	//timestanp
+	//exception message
+	//details
+	private Date timestamp;
+	private String message;
+	
+
+}

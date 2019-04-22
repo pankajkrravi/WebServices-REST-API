@@ -1,0 +1,6 @@
+//Configuration
+//Enable Swagger
+public class SwaggerConfiguration {
+	//Bean - Docket
+
+}

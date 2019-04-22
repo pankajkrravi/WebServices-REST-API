@@ -1,0 +1,7 @@
+package com.goomo.restWS.RestfulWS;
+
+public class HelloWorldBean {
+   public HelloWorldBean() {
+	// TODO Auto-generated constructor stub
+}
+}

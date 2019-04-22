@@ -1,0 +1,12 @@
+package com.goomo.restWS.RestfulWS.user;
+
+
+@ResponseStatus
+public class UserNotFoundException extends RuntimeException {
+
+	public UserNotFoundException(String message) {
+		super(message);
+	}
+
+}
+ 	

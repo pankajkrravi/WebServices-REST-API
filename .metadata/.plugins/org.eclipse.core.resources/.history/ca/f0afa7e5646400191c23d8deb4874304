@@ -1,0 +1,5 @@
+//Configuration
+//Enable Swagger
+public class SwaggerConfiguration {
+
+}

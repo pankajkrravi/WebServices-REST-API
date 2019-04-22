@@ -1,0 +1,12 @@
+import org.springframework.context.annotation.Configuration;
+
+//Configuration
+//Enable Swagger
+@Configuration
+public class SwaggerConfiguration {
+	//Bean - Docket
+	//Swagger 2
+	//All the path
+	//all the Api's
+
+}

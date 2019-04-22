@@ -1,0 +1,5 @@
+package com.goomo.restWS.RestfulWS.exception;
+
+public class EceptionResponse {
+
+}

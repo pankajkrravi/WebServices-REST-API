@@ -1,0 +1,9 @@
+//Configuration
+//Enable Swagger
+public class SwaggerConfiguration {
+	//Bean - Docket
+	//Swagger 2
+	//All the path
+	//all the Api's
+
+}
